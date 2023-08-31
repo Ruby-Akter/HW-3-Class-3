@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form action="a">
+            <label>Name:</label>
+            <input type="text" placeholder="Enter Your Name">
+            <br><br>
+            <label>E-mail:</label>
+            <input type="email" placeholder="Enter Your E-mail">
+            <br><br>
+            <label>Password:</label>
+            <input type="password" placeholder="Enter Your Password">
+            <br><br>
+            <fieldset>
+                <legend>Gender:</legend>
+                <input type="radio" name="gender" id="Male">
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" id="Female">
+                <label for="Female">Female</label>
+                <input type="radio" name="gender" id="Other">
+                <label for="Other">Other</label>
+            </fieldset><br><br>
+
+            <label>Age:</label>
+            <input type="number" placeholder="Enter Your Age" min="18">
+            <br><br>
+            <label>Phone:</label>
+            <input type="tel" placeholder="Enter Your Phone">
+            <br><br>
+            <label>Address:</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter Your Adress"></textarea>
+            <br><br>
+            <label>Education:</label>
+            <select>
+                <option>JSC</option>
+                <option>SSC</option>
+                <option>HSC</option>
+            </select><br><br>
+
+            <label>Favourite Color:</label>
+            <input type="color" placeholder="Enter Your Favourite Color">
+            <select>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Green</option>
+                <option>Black</option>
+                <option>White</option>
+            </select><br><br>
+
+            <label>Blood Group:</label>
+            <select>
+                <optgroup label="Positive">
+                    <option value="A+">A+</option>
+                    <option value="B+" selected>B+</option>
+                    <option value="AB+">AB+</option>
+                    <option value="O+">O+</option>
+                </optgroup>
+                <optgroup label="Negative">
+                    <option value="A-">A-</option>
+                    <option value="B-">B-</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O-">O-</option>
+                </optgroup>
+            </select><br><br>
+
+            <label>Date of Birth:</label>
+            <input type="date" placeholder="Enter Your Date of Birth">
+            <br><br>
+            <label>Date & Time:</label>
+            <input type="datetime-local" placeholder="Enter Your Date & Time">
+            <br><br>
+            <label>File:</label>
+            <input type="file" multiple accept="" placeholder="Enter Your File">
+            <br><br>
+            <input type="reset" placeholder="Reset">
+            <br><br>
+            <button type="submit">Register</button>
+
+
+
+
+        </form>
+    </body>
+</html>
